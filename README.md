@@ -49,6 +49,10 @@ Then include ATL headers as usual:
 #include <atlwin.h>
 ```
 
+## Demo
+
+See [wtltest](https://github.com/kkHAIKE/wtltest) for a comprehensive WTL 10.0 test application built with OpenATL.
+
 ## Author
 
 Created by Claude Opus (Anthropic).
