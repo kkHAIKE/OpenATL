@@ -1,10 +1,10 @@
 # OpenATL
 
-A clean-room, minimal reimplementation of Microsoft's Active Template Library (ATL) for non-Windows platforms.
+A clean-room, minimal reimplementation of Microsoft's Active Template Library (ATL) for the MinGW compiler toolchain.
 
 ## Purpose
 
-OpenATL enables compiling and testing [WTL](https://wtl.sourceforge.io) (Windows Template Library) applications on non-Windows platforms using cross-compilers. Since WTL depends on ATL headers that are only available in Microsoft's toolchain, OpenATL provides the subset of ATL required by WTL, allowing development and CI builds on macOS and Linux.
+[WTL](https://wtl.sourceforge.io) (Windows Template Library) depends on ATL headers that are only available in Microsoft's MSVC toolchain. OpenATL provides the ATL subset required by WTL, making it possible to compile WTL applications with [MinGW](https://www.mingw-w64.org/)-based compilers. This allows building Windows WTL applications on non-Windows platforms (macOS, Linux) using cross-compilers like [llvm-mingw](https://github.com/mstorsjo/llvm-mingw).
 
 ## Features
 
