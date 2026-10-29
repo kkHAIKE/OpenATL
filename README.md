@@ -57,6 +57,10 @@ See [wtltest](https://github.com/kkHAIKE/wtltest) for a comprehensive WTL 10.0 t
 
 Created by Claude Opus (Anthropic).
 
+## Support
+
+If you find this project useful, consider [sponsoring my open-source work](https://github.com/sponsors/kkHAIKE).
+
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
